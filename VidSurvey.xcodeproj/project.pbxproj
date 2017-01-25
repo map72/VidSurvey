@@ -15,6 +15,8 @@
 		FBAFE06C1E22D1CD0073C550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBAFE06A1E22D1CD0073C550 /* LaunchScreen.storyboard */; };
 		FBAFE07D1E22D2600073C550 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAFE07A1E22D22C0073C550 /* ResearchKit.framework */; };
 		FBAFE07E1E22D2600073C550 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FBAFE07A1E22D22C0073C550 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FBDE61341E37CE2900DDEA16 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDE61331E37CE2900DDEA16 /* EntryViewController.swift */; };
+		FBDE61361E37F24E00DDEA16 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDE61351E37F24E00DDEA16 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		FBAFE06B1E22D1CD0073C550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBAFE06D1E22D1CD0073C550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBAFE0731E22D22C0073C550 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "../../../Desktop/ResearchKit-master 2/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
+		FBDE61331E37CE2900DDEA16 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		FBDE61351E37F24E00DDEA16 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				FBAFE05E1E22D1CD0073C550 /* AppDelegate.swift */,
+				FBDE61351E37F24E00DDEA16 /* DetailViewController.swift */,
+				FBDE61331E37CE2900DDEA16 /* EntryViewController.swift */,
 				FBAFE0601E22D1CD0073C550 /* SurveyViewController.swift */,
 				FBAFE0621E22D1CD0073C550 /* Main.storyboard */,
 				FBAFE0681E22D1CD0073C550 /* Assets.xcassets */,
@@ -218,6 +224,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBAFE0611E22D1CD0073C550 /* SurveyViewController.swift in Sources */,
+				FBDE61341E37CE2900DDEA16 /* EntryViewController.swift in Sources */,
+				FBDE61361E37F24E00DDEA16 /* DetailViewController.swift in Sources */,
 				FBAFE05F1E22D1CD0073C550 /* AppDelegate.swift in Sources */,
 				FBAFE0671E22D1CD0073C550 /* VidSurvey.xcdatamodeld in Sources */,
 			);
@@ -393,6 +401,7 @@
 				FBAFE0721E22D1CD0073C550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
