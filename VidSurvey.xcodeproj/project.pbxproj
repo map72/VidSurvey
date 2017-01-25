@@ -159,7 +159,7 @@
 				TargetAttributes = {
 					FBAFE05A1E22D1CC0073C550 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 72AK79RE5G;
+						DevelopmentTeam = M4BX76RN8J;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -359,7 +359,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 72AK79RE5G;
+				DEVELOPMENT_TEAM = M4BX76RN8J;
 				INFOPLIST_FILE = VidSurvey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Fic.VidSurvey;
@@ -373,7 +373,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 72AK79RE5G;
+				DEVELOPMENT_TEAM = M4BX76RN8J;
 				INFOPLIST_FILE = VidSurvey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Fic.VidSurvey;

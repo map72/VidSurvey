@@ -22,6 +22,21 @@ class DetailViewController: UIViewController {
         let excludedActivities = [UIActivityType.postToFlickr, UIActivityType.postToWeibo, UIActivityType.message, UIActivityType.mail, UIActivityType.print, UIActivityType.copyToPasteboard, UIActivityType.assignToContact, UIActivityType.saveToCameraRoll, UIActivityType.addToReadingList, UIActivityType.postToFlickr, UIActivityType.postToVimeo, UIActivityType.postToTencentWeibo]
         
         activityController.excludedActivityTypes = excludedActivities
-        present(activityController, animated: true, completion: nil)
+        //check ipad
+        if (UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad)
+        {
+            //ios > 8.0
+           if (activityController.responds(to: #selector(getter: UIViewController.popoverPresentationController)) ) {
+                activityController.popoverPresentationController?.sourceView = super.view
+                present(activityController, animated: true, completion: nil)
+            }
+        }
+        else {
+            present(activityController, animated: true, completion: nil)
+        }
     }
 }
+
+
+
+
